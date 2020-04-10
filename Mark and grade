@@ -1,0 +1,42 @@
+Program written to display the mark of the student 
+
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+int mark;
+char GradeA,GradeB,GradeC,GradeD,GradeE,Failed;
+printf("Enter the mark:\n");
+scanf("%d",&mark);
+ if(mark>=90)
+  {
+    printf("GradeA\n");
+  }
+  else
+  if (mark>=80)
+   {
+     printf("GradeB\n");
+   }
+   else
+   if(mark>=70)
+    {
+      printf("GradeC\n");
+    }
+    else
+    if(mark>=60)
+     {
+      printf("GradeD\n");
+     }
+    else 
+    if(mark>=50)
+     {
+       printf("GradeE\n");
+     }
+     else
+      {
+      printf("Failed\n");
+      }
+  return 0;
+}
